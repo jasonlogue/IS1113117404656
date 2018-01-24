@@ -1,6 +1,17 @@
 .mainheading{
     text-align: center;
 }
-.line{
-    border:1px solid black;
+
+.button{
+  position: relative;
+  margin-left: 100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.Jason{
+    position: relative;
+    top: -50px;
 }
