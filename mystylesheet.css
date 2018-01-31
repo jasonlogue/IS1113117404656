@@ -2,6 +2,13 @@
     text-align: center;
 }
 
+.html *
+{
+   font-size: 1em !important;
+   color: #000 !important;
+   font-family: Arial !important;
+}
+
 .button{
   position: relative;
   margin-left: 100px;
@@ -21,4 +28,11 @@ table, th, td {
 .Table{
     max-height: 300px;
     max-width: 350px;
+}
+
+body {
+   background-image: url("https://wallpapersfit.com/wp-content/uploads/data/2017/11/23/Images-Background-In-High-Quality-wpc5003555.jpg");
+   background-color: #cccccc;
+   background-size: 100%;
+   background-repeat:no-repeat;
 }
