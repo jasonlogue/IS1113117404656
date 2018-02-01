@@ -1,0 +1,7 @@
+/* Styling table */
+table, th, td {
+    border: 1px solid black;
+    width: 30%;
+    max-width: 30%;
+}
+
