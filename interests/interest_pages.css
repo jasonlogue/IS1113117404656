@@ -2,8 +2,7 @@
     background-image: url("../Images/spainflag.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center
-    
+    background-position: center;
 }
 
 #section2{
@@ -28,6 +27,7 @@
 
 .sportreasons{
     max-width: 40%;
+    color: black;
 }
 
 .mainheading {
@@ -46,5 +46,11 @@
     position: absolute;
     top:85%;
     left:47%;
-    
 }    
+
+.sportspage{
+        background-image: url(../Images/rugz.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: black;
+}

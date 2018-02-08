@@ -2,6 +2,7 @@ body{
     background-image:url("../Images/greybackground.jpg");
     background-size:100%;
     background-repeat: no-repeat;
+    color: white;
 }
 
 /* Styling table */
@@ -18,4 +19,5 @@ table, th, td {
 .mainheading3{
     text-align: center;
 }
+
 
