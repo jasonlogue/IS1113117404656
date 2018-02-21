@@ -2,8 +2,13 @@ body{
     background-image:url("../Images/greybackground.jpg");
     background-size:100%;
     background-repeat: no-repeat;
-    color: white;
 }
+
+.cvpage1, .cvpage2, .cvpage3{
+    color: #fff;
+}
+
+
 
 /* Styling table */
 table, th, td {
@@ -20,4 +25,7 @@ table, th, td {
     text-align: center;
 }
 
+.buttons{
+    border-style: groove;
+}
 

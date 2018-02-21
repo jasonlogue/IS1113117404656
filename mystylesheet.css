@@ -2,13 +2,6 @@
     text-align: center;
 }
 
-.html *
-{
-   font-size: 1em !important;
-   color: #000 !important;
-   font-family: Arial !important;
-}
-
 .button{
   position: relative;
   margin-left: 100px;
@@ -24,25 +17,27 @@ body {
 
 /* Styling links */
 a:link, a:visited {
-    background-color: grey;
+    background-color: transparent;
     color: #92a8d1;
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    border-radius: 15px;
+    outline-color: black;
     
 }
 
-a:hover, a:active {
-    color: hotpink;
+a:hover, a:active{
+    color: black;
 }
 
 .CV {
     width: 180px;
     height: 40px;
     position: absolute;
-    top: 50%;
-    left: 26.6%;
+    top: 30%;
+    left: 42.5%;
     transform: translate(50, 37);
 }
 
@@ -50,8 +45,8 @@ a:hover, a:active {
     width: 110px;
     height: 40px;
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 45%;
+    left: 44.75%;
     transform: translate(50, 10);
 }
 
@@ -59,17 +54,17 @@ a:hover, a:active {
     width: 165px;
     height: 40px;
     position: absolute;
-    top: 50%;
-    left: 49.3%;
+    top: 75%;
+    left: 43.75%;
     transform: translate(50, 49.3)
 }
 
-/* Aligning Shop hyperlink */
+/* Aligning Ebusiness hyperlink */
 .Shop {
     width: 100px;
     height: 40px;
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 60%;
+    left: 44.5%;
     transform: translate(50, 70);
 }
