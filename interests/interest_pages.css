@@ -28,6 +28,7 @@
 .sportreasons{
     max-width: 40%;
     color: black;
+    text-align: center;
 }
 
 .mainheading {
@@ -41,7 +42,6 @@
     right:33.5%;
 }
 
-
 .homebutton{
     position: absolute;
     top:85%;
@@ -53,4 +53,29 @@
         background-size: 100%;
         background-repeat: no-repeat;
         color: black;
+        text-align: center;
+}
+
+.cloudpage{
+    background-image: url(../Images/background2.jpg);
+}
+
+.uccsport{
+    position:absolute;
+    right:5%;
+    top:5%;
+}
+
+.uccsport img{
+    max-height: 150px;
+}
+
+.ocrfc{
+    position: absolute;
+    left:5%;
+    top:5%;
+}
+
+.ocrfc img{
+    max-height: 150px;
 }
