@@ -13,17 +13,18 @@
 }
 
 #section3{
-    background-image: url("../Images/usaflag.png");
+    background-image: url("../Images/Irishflag.jpg");
     background-size:110%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .section{
-        text-align: center;
-        color: black;
-        font-size: larger;
+    text-align: center;
+    color: black;
+    font-size: larger;
 }
+
 
 .sportreasons{
     max-width: 40%;
@@ -40,6 +41,14 @@
     text-align: center;
     position: absolute;
     right:33.5%;
+}
+
+.paragraphspain{
+    color: black;
+    text-align: center;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .homebutton{
@@ -78,4 +87,33 @@
 
 .ocrfc img{
     max-height: 150px;
+}
+
+#section4{
+    background-image: url(../Images/Clouds.jpg);
+    background-size: 100%;
+}
+
+.aboutcloudpara{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+}
+
+.aboutcloudhead{
+        position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+}
+
+#section5{
+    background-image: url(../Images/Clouds2.jpg);
+    background-size: 100%;
+}
+
+#section6{
+    background-image: url(../Images/Clouds3.jpg);
+    background-size: 100%;
 }
