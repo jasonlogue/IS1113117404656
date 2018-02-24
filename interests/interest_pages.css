@@ -27,9 +27,11 @@
 
 
 .sportreasons{
-    max-width: 40%;
+    top: 30%;
+    max-width: 30%;
     color: black;
     text-align: center;
+    left: 35%;
 }
 
 .mainheading {
