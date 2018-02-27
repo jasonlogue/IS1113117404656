@@ -9,7 +9,7 @@ ul{
     width:100%;
     height:20%;
     background:black;
-    
+    z-index: 10;
 }
 
 ul li{
@@ -53,4 +53,122 @@ ul li a:hover{
     width: 400px;
     text-align: center;
     left: 37%;
+}
+
+.salesforcepara{
+    max-width: 40%;
+}
+
+.cloud9para{
+    max-width: 40%;
+    float: right;
+}
+
+.amazonwebpara{
+    position: absolute;
+    max-width: 40%;
+    top: 220%;
+}
+
+.gmailpara{
+    position: absolute;
+    max-width: 40%;
+    top: 300%;
+    right: 0%;
+}
+
+.salesforceimage img{
+    height: 270px;
+}
+
+.salesforceimage{
+    position: absolute;
+    left: 57.5%;
+    top: 66%;
+}
+
+.cloud9image img{
+    position: absolute;
+    height: 400px;
+}
+
+.cloud9image{
+    position: absolute;
+    left: 14%;
+    top: 135%;
+}
+
+.amazonimage img{
+    position: absolute;
+    height: 450px;
+}
+
+.amazonimage{
+    position: absolute;
+    max-width: 600px;
+    max-height: 400px;
+    left: 40%;
+    top: 223%;
+}
+
+.gmailimage img{
+    position: absolute;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.gmailimage{
+    position: absolute;
+    top: 320%;
+    left: 10%;
+}
+
+.exitbutton{
+    color: white;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    z-index: 15;
+}
+
+.productshead{
+    font-size: x-large; 
+    position: absolute;
+    right: 39%;
+    width: 300px;
+}
+
+.salesforceproduct{
+    position: absolute;
+    top: 50%;
+    width: 40%;
+}
+
+.cloud9product{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 40%;
+}
+
+.awsproduct{
+    position: absolute;
+    top: 80%;
+    width: 40%;
+}
+
+.gmailproduct{
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    width: 40%;
+}
+
+.shopbutton{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    border-radius: 60px;
+    top: 110%;
+    left: 45%;
 }

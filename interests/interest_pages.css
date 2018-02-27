@@ -27,11 +27,26 @@
 
 
 .sportreasons{
+    position: absolute;
     top: 30%;
-    max-width: 30%;
+    max-width: 40%;
     color: black;
     text-align: center;
-    left: 35%;
+    left: 31%;
+}
+
+.sportback{
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 2.5%;
+}
+
+.sportnext{
+    color: black;
+    position: absolute;
+    top: 90%;
+    right: 2.5%;
 }
 
 .mainheading {
@@ -104,10 +119,44 @@
 }
 
 .aboutcloudhead{
-        position: absolute;
-    top: 25%;
+    position: absolute;
+    top: 10%;
     left: 25%;
     width: 50%;
+}
+
+.cloudhistorypara{
+    color: black;
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    left: 10%;
+}
+
+.history{
+    color: black;
+    position: absolute;
+    top: 17.5%;
+    left: 21%;
+}
+
+.cloudhistoryhead{
+    position: absolute;
+    top: 2.5%;
+    left: 35%;
+}
+
+.trendshead{
+    position: absolute;
+    top: 17.5%;
+    right: 18%;
+}
+
+.trendspara{
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    right: 10%;
 }
 
 #section5{
@@ -118,4 +167,16 @@
 #section6{
     background-image: url(../Images/Clouds3.jpg);
     background-size: 100%;
+}
+
+.btnhomepage{
+    position: absolute;
+    top: 90%;
+    right: 2.5%;
+}
+
+.populartechhead{
+    position: relative;
+    top: 2.5%;
+    left: -300%;
 }
