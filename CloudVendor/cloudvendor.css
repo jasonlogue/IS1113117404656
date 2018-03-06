@@ -1,8 +1,10 @@
-*{
-    margin:0;
-    font-family: verdana;
+body {
+    font-family: 'Mukta Malar', sans-serif;
 }
 
+*{
+    margin:0;
+}
 
 ul{
     position:absolute;
@@ -52,29 +54,34 @@ ul li a:hover{
     height: 100px;
     width: 400px;
     text-align: center;
-    left: 37%;
+    left: 35%;
 }
 
 .salesforcepara{
+    position: absolute;
     max-width: 40%;
+    left: 1%;
 }
 
 .cloud9para{
+    position: absolute;
     max-width: 40%;
-    float: right;
+    right: 1%;
+    top: 135%;
 }
 
 .amazonwebpara{
     position: absolute;
     max-width: 40%;
-    top: 220%;
+    top: 237%;
+    left: 1%;
 }
 
 .gmailpara{
     position: absolute;
     max-width: 40%;
-    top: 300%;
-    right: 0%;
+    top: 310%;
+    right: 1%;
 }
 
 .salesforceimage img{
@@ -83,8 +90,8 @@ ul li a:hover{
 
 .salesforceimage{
     position: absolute;
-    left: 57.5%;
-    top: 66%;
+    left: 58%;
+    top: 80%;
 }
 
 .cloud9image img{
@@ -94,8 +101,8 @@ ul li a:hover{
 
 .cloud9image{
     position: absolute;
-    left: 14%;
-    top: 135%;
+    left: 13%;
+    top: 155%;
 }
 
 .amazonimage img{
@@ -108,7 +115,7 @@ ul li a:hover{
     max-width: 600px;
     max-height: 400px;
     left: 40%;
-    top: 223%;
+    top: 243%;
 }
 
 .gmailimage img{
@@ -119,8 +126,8 @@ ul li a:hover{
 
 .gmailimage{
     position: absolute;
-    top: 320%;
-    left: 10%;
+    top: 333%;
+    left: 8%;
 }
 
 .exitbutton{

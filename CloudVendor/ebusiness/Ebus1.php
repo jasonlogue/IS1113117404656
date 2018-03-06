@@ -8,15 +8,44 @@
         <script type="text/javascript" src="cost_calc.js"></script>
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
-
+        
+          <ul>
+            <li><a href ="../CloudVendor/home.html">Home</a></li>
+            <li><a href ="..CloudVendor/aboutcloud.html">About Cloud</a></li>
+            <li><a href ="../CloudVendor/products.html">Products</a></li>
+            <div class="logo">
+                <img src="../Images/logo.png">
+            </div>
+        </ul>
+        
     </head>
     
     <body>
-        
-            <h4>Select a Product</h4>
             
-            <br>
+        <div class="exitbutton">
+        <p><a href="../homepage.html">&larr;Exit</a></p>
+        </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>    
             
+            <div class="shopheading">
+            <h1>Select a Product</h1>
+            </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+            
+            <div class="productselection">
             <form method="POST" action="Ebus2.php">
               
               <label for="salesforce" class="rb_salesforce">
@@ -79,7 +108,7 @@
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
-            
+            </div>
             <button onClick="calcSub()">Calculate Cost</button>
             <br>
             <a role="button" href="Ebus1.php">Clear Choice</a>

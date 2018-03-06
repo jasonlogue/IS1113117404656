@@ -8,6 +8,15 @@ session_start()
         <title>Receipt</title>
         
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        
+          <ul>
+            <li><a href ="../CloudVendor/home.html">Home</a></li>
+            <li><a href ="..CloudVendor/aboutcloud.html">About Cloud</a></li>
+            <li><a href ="../CloudVendor/products.html">Products</a></li>
+            <div class="logo">
+                <img src="../Images/logo.png">
+            </div>
+        </ul>
     </head>
     
     <body>

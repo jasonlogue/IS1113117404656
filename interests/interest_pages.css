@@ -6,7 +6,7 @@
 }
 
 #section2{
-    background-image: url("../Images/australianflag.png");
+    background-image: url("../Images/boraboraflag.png");
     background-size:110%;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,7 +25,6 @@
     font-size: larger;
 }
 
-
 .sportreasons{
     position: absolute;
     top: 30%;
@@ -36,36 +35,154 @@
 }
 
 .sportback{
-    color: black;
     position: absolute;
     top: 90%;
     left: 2.5%;
 }
 
-.sportnext{
+.sportback a{
+    text-decoration: none;
     color: black;
+    padding: 10px;
+}
+
+.sportnext{
     position: absolute;
     top: 90%;
     right: 2.5%;
+}
+
+.sportnext a{
+    text-decoration: none;
+    color: black;
 }
 
 .mainheading {
     text-align: center;
 }
 
-.paragraphaus{
-    max-width: 500px;
-    text-align: center;
+.alicante1 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.alicante1{
     position: absolute;
-    right:33.5%;
+    top: 20%;
+    left: 7%;
+
+}
+
+.alicante2 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.alicante2{
+   position: absolute;
+   top: 20%;
+   right: 7%;
 }
 
 .paragraphspain{
     color: black;
     text-align: center;
-    max-width: 40%;
+    max-width: 28%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.borabora1 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.borabora1{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.borabora2 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.borabora2{
+    position: absolute;
+    top: 20%;
+    right: 8%;
+}
+
+.paragraphbora{
+    color: black;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    max-width: 28%;
+}
+
+.boraboraheading{
+    position: absolute;
+    top: 30%;
+    left: 42%;
+}
+
+.ireland1 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.ireland1{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.ireland2 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.ireland2{
+    position: absolute;
+    top: 20%;
+    right: 8%;
+}
+
+.irelandheading{
+    position: absolute;
+    top: 35%;
+    left: 47%;
+}
+
+.paragraphireland{
+    color: black;
+    position: absolute;
+    top: 41%;
+    left: 36%;
+    max-width: 28%;
+}
+
+.btnhometravel{
+    position: absolute;
+    top: 90%;
+    right: 5%;
+    z-index: 99;
+    opacity: 1;
+}
+
+.btnprev{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    z-index: 99;
 }
 
 .homebutton{
@@ -169,14 +286,98 @@
     background-size: 100%;
 }
 
-.btnhomepage{
+.btncloudhome{
     position: absolute;
     top: 90%;
     right: 2.5%;
 }
 
 .populartechhead{
-    position: relative;
+    position: absolute;
     top: 2.5%;
-    left: -300%;
+    left: 28%;
+}
+
+.drivepara{
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    left: 2.5%;
+}
+
+.dropboxpara{
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    right: 2.5%;
+}
+
+.onedrivepara{
+    position: absolute;
+    top: 70%;
+    width: 40%;
+    left: 2.5%;
+}
+
+.icloudpara{
+    position: absolute;
+    top: 70%;
+    width: 40%;
+    left: 55%;
+}
+
+.drivepic img{
+    height: 150px;
+    width: 450px;
+}
+
+.drivepic{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+.dropboxpic img{
+    height: 150px;
+    width: 450px;
+}
+
+.dropboxpic{
+    position: absolute;
+    top: 12%;
+    right: 6%;
+}
+
+.icloudpic img{
+    height: 150px;
+    width: 450px;
+}
+
+.icloudpic{
+    position: absolute;
+    top: 53%;
+    right: 8%;
+}
+
+.onedrivepic img{
+    height: 150px;
+    width: 450px;
+}
+
+.onedrivepic{
+    position: absolute;
+    top: 53%;
+    left: 5.5%;
+}
+
+.btncloudprev{
+    position: absolute;
+    top: 90%;
+    left: 2.5%;
+}
+
+.btncloudhome{
+    position: absolute;
+    top: 90%;
+    right: 2.5%;
 }
