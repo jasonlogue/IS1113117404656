@@ -35,14 +35,15 @@ session_start()
     <br>
     <br>
     
-        <h4 class="ebus3_heading">Purchase Receipt</h4>
+        <h1 class="ebus3heading">Purchase Receipt</h1>
         
         <?php  
         // Bring across variables
           $_SESSION["name"] = $_POST["name"];
           $_SESSION["email"] = $_POST["email"];
         ?>
-        
+        <div class="receiptinfo">
+            
         <p>
             <?php
             // Display the user's name
@@ -63,5 +64,11 @@ session_start()
             echo "Total: " . $_SESSION["total"] . ".";
             ?>
         </p>
+        
+        </div>
+        
+        <h3 class="thankyou">Your order has been placed. Thank you for shopping with us! An email has been sent to you with an attached invoice detailing your purchase. We hope to do 
+        business with you again soon.</h3>
+        
     </body>
 </html>

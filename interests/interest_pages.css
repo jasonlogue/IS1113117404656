@@ -27,17 +27,19 @@
 
 .sportreasons{
     position: absolute;
-    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     max-width: 40%;
     color: black;
     text-align: center;
-    left: 31%;
 }
 
 .sportback{
     position: absolute;
     top: 90%;
-    left: 2.5%;
+    left: 5%;
+    color: black;
+    font-size: 150%;
 }
 
 .sportback a{
@@ -49,7 +51,9 @@
 .sportnext{
     position: absolute;
     top: 90%;
-    right: 2.5%;
+    right: 5%;
+    color: black;
+    font-size: 150%;
 }
 
 .sportnext a{
@@ -58,7 +62,47 @@
 }
 
 .mainheading {
-    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 5%;
+}
+
+.favsport{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 15%;
+}
+
+.details{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    
+}
+
+.sportsreasons{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    top: 42.5%;
+}
+
+.club{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 65%;
+}
+
+.training{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 75%;
 }
 
 .alicante1 img{
@@ -176,6 +220,7 @@
     right: 5%;
     z-index: 99;
     opacity: 1;
+    font-size: 150%;
 }
 
 .btnprev{
@@ -183,6 +228,7 @@
     top: 90%;
     left: 5%;
     z-index: 99;
+    font-size: 150%;
 }
 
 .homebutton{
@@ -192,11 +238,11 @@
 }    
 
 .sportspage{
-        background-image: url(../Images/rugz.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        color: black;
-        text-align: center;
+    background-image: url(../Images/rugz.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
 }
 
 .cloudpage{

@@ -48,9 +48,10 @@
     <br>
     <br>
             
-            <div class="productselection">
+          <div class="productselection">
             <form method="POST" action="Ebus2.php">
               
+            
               <label for="salesforce" class="lblsalesforce">
                 <input class="rdbsalesforce" type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
@@ -81,28 +82,28 @@
               
               <!-- Price Summary -->
               <label for="subtotal" class="lblsubtotal">
-                Sub Total
+                Sub Total:
                 <input class="txtsubtotal" type="text" id="subtotal" value="0.00" readonly/>
               </label>
               
               <br>
               
               <label for="discount" class="lbldiscount">
-                Discount @ 5%
+                Discount @ 5%:
                 <input class="txtdiscount" type="text" id="discount" value="0.00" readonly/>
               </label>
               
               <br>
               
               <label for="vat" class="lblvat">
-                VAT @ 10%
+                VAT @ 10%:
                 <input class="txtvat" type="text" id="vat" value="0.00" readonly/>
               </label>
               
               <br>
               
               <label for="total" class="lbltotal">
-                Total
+                Total:
                 <input class="txttotal" type="text" id="total" name="total" value="0.00" readonly/>
               </label>
     
@@ -111,10 +112,10 @@
               <button class="btnaddtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
-            </div>
+          </div>
             <button class="calcsubbtn" onClick="calcSub()">Calculate Cost</button>
             <br>
             <button class="clearbtn" role="button" href="Ebus1.php">Clear Choice</button>
-    
+          
     </body>
 </html>
