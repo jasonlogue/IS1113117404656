@@ -125,7 +125,7 @@ ul li a:hover{
     position: absolute;
     left: 45%;
     transform: translate(-50%, -50%);
-    top: 70%;
+    top: 75%;
     border-radius: 10%;
     height: 40px;
     background-color: #1E90FF;
@@ -136,7 +136,7 @@ ul li a:hover{
     position: absolute;
     left: 55%;
     transform: translate(-50%, -50%);
-    top: 70%;
+    top: 75%;
     border-radius: 10%;
     height: 40px;
     background-color: #B22222;
@@ -147,7 +147,7 @@ ul li a:hover{
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 140%;
+    top: 85%;
     border-radius: 10%;
     height: 40px;
     background-color: #32CD32;

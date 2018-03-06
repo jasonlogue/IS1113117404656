@@ -108,11 +108,10 @@
               </label>
     
               <br/>
+          </div>   
               
-              <button class="btnaddtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            
-            </form>
-          </div>
+          </form>
+            <button class="btnaddtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             <button class="calcsubbtn" onClick="calcSub()">Calculate Cost</button>
             <br>
             <button class="clearbtn" role="button" href="Ebus1.php">Clear Choice</button>

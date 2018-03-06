@@ -37,6 +37,11 @@ home, body, .container{
     min-height: 100%;
 }
 
+aboutcloud, body, .containerabout{
+    height: 100%; 
+    min-height: 100%;
+}
+
 .first{
     position: absolute;
     left: 0%;
@@ -127,27 +132,32 @@ home, body, .container{
     position: absolute;
     max-width: 40%;
     left: 1%;
+    top: 65%;
+    color: white;
 }
 
 .cloud9para{
     position: absolute;
     max-width: 40%;
     right: 1%;
-    top: 135%;
+    top: 145%;
+    color: white;
 }
 
 .amazonwebpara{
     position: absolute;
     max-width: 40%;
-    top: 237%;
+    top: 250%;
     left: 1%;
+    color: white;
 }
 
 .gmailpara{
     position: absolute;
     max-width: 40%;
-    top: 310%;
+    top: 330%;
     right: 1%;
+    color: white;
 }
 
 .salesforceimage img{
@@ -156,7 +166,7 @@ home, body, .container{
 
 .salesforceimage{
     position: absolute;
-    left: 58%;
+    left: 63%;
     top: 80%;
 }
 
@@ -167,21 +177,21 @@ home, body, .container{
 
 .cloud9image{
     position: absolute;
-    left: 13%;
-    top: 155%;
+    left: 11%;
+    top: 165%;
 }
 
 .amazonimage img{
     position: absolute;
-    height: 450px;
+    height: 300px;
 }
 
 .amazonimage{
     position: absolute;
     max-width: 600px;
     max-height: 400px;
-    left: 40%;
-    top: 243%;
+    left: 57%;
+    top: 270%;
 }
 
 .gmailimage img{
@@ -192,8 +202,8 @@ home, body, .container{
 
 .gmailimage{
     position: absolute;
-    top: 333%;
-    left: 8%;
+    top: 360%;
+    left: 5%;
 }
 
 .exitbutton{
@@ -297,4 +307,55 @@ home, body, .container{
     top: 215%;
     color: white;
     width: 40%;
+}
+
+.seventh{
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    top: 62%;
+    height: 586px;
+    background-color: #DC143C;
+    color: #DC143C;
+}
+
+.eighth{
+    position: absolute;
+    right: 0%;
+    width: 50%;
+    top: 141%;
+    height: 790px;
+    background-color: #FF4500;
+    color: #FF4500;
+}
+
+.ninth{
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    top: 247.5%;
+    height: 600px;
+    background-color: #FFD700;
+    color: #FFD700;
+}
+
+.tenth{
+    position: absolute;
+    right: 0%;
+    width: 50%;
+    top: 328.5%;
+    height: 650px;
+    background-color: #40E0D0;
+    color: #40E0D0; 
+}
+
+.shopbutton{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 10%;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #32CD32;
+    color: white;
 }
