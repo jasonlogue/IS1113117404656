@@ -13,45 +13,58 @@ session_start();
     
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
-          <ul>
-            <li><a href ="../CloudVendor/home.html">Home</a></li>
-            <li><a href ="..CloudVendor/aboutcloud.html">About Cloud</a></li>
-            <li><a href ="../CloudVendor/products.html">Products</a></li>
+        <ul>
+            <li><a href ="home.html">Home</a></li>
+            <li><a href ="aboutcloud.html">About Cloud</a></li>
+            <li><a href ="products.html">Products</a></li>
             <div class="logo">
-                <img src="../Images/logo.png">
+                <img src="../../Images/logo.png">
             </div>
         </ul>
+        
+        <!-- Setting font -->
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
         
     </head>
     
     <body>
         
-        <h4>Please enter your payment details</h4>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>    
         
+
+        <h1 class="paymentheading">Please enter your payment details</h1>
+            
             <form action="ebus3.php" method="POST">
 
-                    <label for="pin">PIN</label>
-                    <input type="password" id="pin" placeholder="Card PIN" maxlength="4">
+                    <label class="pin" for="pin">PIN:</label>
+                    <input class="txtpin" type="password" id="pin" placeholder="Card PIN" maxlength="4">
                     
                     <br>
                     
-                     <label for="name">Name</label>
-                    <input type="name" id="name" name="name" placeholder="Joe Bloggs">
+                     <label class="paymentname" for="name">Name:</label>
+                    <input class="txtname" type="name" id="name" name="name" placeholder="Joe Bloggs">
                     
                     <br>
                     
-                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" placeholder="joebloggs@ucc.ie" >
+                     <label class="paymentemail" for="email">Email Address:</label>
+                    <input class="txtemail" type="email" id="email" name="email" placeholder="joebloggs@ucc.ie" >
                     
                     <br>
                     
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <button class="paymentproceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
             </form>
             
             <br/>
             
-            <button onClick="validateDetails()">Validate</button>
-            
+            <button class="paymentvalidate" onClick="validateDetails()">Validate</button>
             <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];

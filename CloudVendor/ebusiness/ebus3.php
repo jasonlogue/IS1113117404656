@@ -7,19 +7,34 @@ session_start()
     <head>
         <title>Receipt</title>
         
-        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
-          <ul>
-            <li><a href ="../CloudVendor/home.html">Home</a></li>
-            <li><a href ="..CloudVendor/aboutcloud.html">About Cloud</a></li>
-            <li><a href ="../CloudVendor/products.html">Products</a></li>
+        <ul>
+            <li><a href ="home.html">Home</a></li>
+            <li><a href ="aboutcloud.html">About Cloud</a></li>
+            <li><a href ="products.html">Products</a></li>
             <div class="logo">
-                <img src="../Images/logo.png">
+                <img src="../../Images/logo.png">
             </div>
         </ul>
+        
+        <!-- Setting font -->
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+        
     </head>
     
     <body>
+        
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
         <h4 class="ebus3_heading">Purchase Receipt</h4>
         
         <?php  

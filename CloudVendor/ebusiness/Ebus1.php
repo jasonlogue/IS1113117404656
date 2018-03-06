@@ -9,14 +9,17 @@
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
-          <ul>
-            <li><a href ="../CloudVendor/home.html">Home</a></li>
-            <li><a href ="..CloudVendor/aboutcloud.html">About Cloud</a></li>
-            <li><a href ="../CloudVendor/products.html">Products</a></li>
+        <ul>
+            <li><a href ="home.html">Home</a></li>
+            <li><a href ="aboutcloud.html">About Cloud</a></li>
+            <li><a href ="products.html">Products</a></li>
             <div class="logo">
-                <img src="../Images/logo.png">
+                <img src="../../Images/logo.png">
             </div>
         </ul>
+        
+        <!-- Setting font -->
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
         
     </head>
     
@@ -48,70 +51,70 @@
             <div class="productselection">
             <form method="POST" action="Ebus2.php">
               
-              <label for="salesforce" class="rb_salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+              <label for="salesforce" class="lblsalesforce">
+                <input class="rdbsalesforce" type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
               </label>
               
               <br>
               
-              <label for="cloud9">
-                <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+              <label for="cloud9" class="lblcloud9">
+                <input class="rdbcloud9" type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                 Cloud9 @ $200
               </label>
               
               <br>
               
-              <label for="aws">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+              <label for="aws" class="lblaws">
+                <input class="rdbaws" type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
               </label>
               
               <br>
               
-              <label for="gmail">
-                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+              <label for="gmail" class="lblgmail">
+                <input class="rdbgmail" type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Gmail @ $400
               </label>
               
               <br>
               
               <!-- Price Summary -->
-              <label for="subtotal">
+              <label for="subtotal" class="lblsubtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input class="txtsubtotal" type="text" id="subtotal" value="0.00" readonly/>
               </label>
               
               <br>
               
-              <label for="discount">
+              <label for="discount" class="lbldiscount">
                 Discount @ 5%
-                <input type="text" id="discount" value="0.00" readonly/>
+                <input class="txtdiscount" type="text" id="discount" value="0.00" readonly/>
               </label>
               
               <br>
               
-              <label for="vat">
+              <label for="vat" class="lblvat">
                 VAT @ 10%
-                <input type="text" id="vat" value="0.00" readonly/>
+                <input class="txtvat" type="text" id="vat" value="0.00" readonly/>
               </label>
               
               <br>
               
-              <label for="total" class="txt_total">
+              <label for="total" class="lbltotal">
                 Total
-                <input type="text" id="total" name="total" value="0.00" readonly/>
+                <input class="txttotal" type="text" id="total" name="total" value="0.00" readonly/>
               </label>
     
               <br/>
               
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button class="btnaddtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             </div>
-            <button onClick="calcSub()">Calculate Cost</button>
+            <button class="calcsubbtn" onClick="calcSub()">Calculate Cost</button>
             <br>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
+            <button class="clearbtn" role="button" href="Ebus1.php">Clear Choice</button>
     
     </body>
 </html>

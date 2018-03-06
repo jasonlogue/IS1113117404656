@@ -32,7 +32,118 @@ ul li a:hover{
     padding:0%;
 }
 
+.logo{
+    position:absolute;
+    right: 5%;
+    top: 0%;
+    margin-top: -1.5%;
+}
+
 .txt_total{
     position: absolute;
 }
 
+.shopheading{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+}
+
+.paymentheading{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+}
+
+.pin{
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.txtpin{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.paymentname{
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    top: 55%;
+}
+
+.txtname{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 55%;
+}
+
+.paymentemail{
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+}
+
+.txtemail{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+}
+
+.paymentproceed{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    border-radius: 10%;
+}
+
+.paymentvalidate{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    border-radius: 10%;
+}
+
+.calcsubbtn{
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    border-radius: 10%;
+    height: 40px;
+    background-color: #6495ED;
+    color: white;
+}
+
+.clearbtn{
+    position: absolute;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    border-radius: 10%;
+    height: 40px;
+    background-color: #B22222;
+    color: white;
+}
+
+.btnaddtocart{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 160%;
+    border-radius: 10%;
+    height: 40px;
+    background-color: #32CD32;
+    color: white;
+}

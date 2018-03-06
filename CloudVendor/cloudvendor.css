@@ -149,12 +149,13 @@ ul li a:hover{
     position: absolute;
     top: 50%;
     width: 40%;
+    left: 1%;
 }
 
 .cloud9product{
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: 1%;
     width: 40%;
 }
 
@@ -162,12 +163,13 @@ ul li a:hover{
     position: absolute;
     top: 80%;
     width: 40%;
+    left: 1%;
 }
 
 .gmailproduct{
     position: absolute;
     top: 80%;
-    right: 0%;
+    right: 1%;
     width: 40%;
 }
 
@@ -176,6 +178,6 @@ ul li a:hover{
     height: 50px;
     width: 100px;
     border-radius: 60px;
-    top: 110%;
+    top: 120%;
     left: 45%;
 }
