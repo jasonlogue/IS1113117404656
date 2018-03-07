@@ -9,6 +9,7 @@
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
+        <!-- Creating navbar -->
         <ul>
             <li><a href ="home.html">Home</a></li>
             <li><a href ="aboutcloud.html">About Cloud</a></li>
@@ -24,10 +25,11 @@
     </head>
     
     <body>
-            
-        <div class="exitbutton">
-        <p><a href="../homepage.html">&larr;Exit</a></p>
-        </div>
+          
+          <!-- Adding button -->  
+          <div class="exitbutton">
+            <p><a href="../homepage.html">&larr;Exit</a></p>
+          </div>
     
     <br>
     <br>
@@ -40,14 +42,15 @@
     <br>    
             
             <div class="shopheading">
-            <h1>Select a Product</h1>
+              <h1>Select a Product</h1>
             </div>
     <br>
     <br>
     <br>
     <br>
     <br>
-            
+           
+           <!-- Creating form --> 
           <div class="productselection">
             <form method="POST" action="Ebus2.php">
               
@@ -111,6 +114,8 @@
           </div>   
               
           </form>
+            
+            <!-- Adding buttons -->
             <button class="btnaddtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             <button class="calcsubbtn" onClick="calcSub()">Calculate Cost</button>
             <br>

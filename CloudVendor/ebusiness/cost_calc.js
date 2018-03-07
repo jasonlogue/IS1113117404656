@@ -1,5 +1,6 @@
 /* global $ */
 
+// Linking radio buttons to value in text box
 function calcSub(){
     
     var argSubTotal;
@@ -20,7 +21,7 @@ function calcSub(){
     calcDisVatTotal(argSubTotal);
 }
    
-   
+// Calculating discount, vat and total   
 function calcDisVatTotal(parmSubTotal){
   var subTotal = parmSubTotal
   var discountAmt;
@@ -36,6 +37,7 @@ function calcDisVatTotal(parmSubTotal){
   display(subTotal, discountAmt, vatAmt, totalPrice);
 }
 
+//displaying values
 function display(parm1, parm2, parm3, parm4){
   
   document.getElementById("subtotal").value = parm1;

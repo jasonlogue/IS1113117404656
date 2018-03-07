@@ -9,6 +9,7 @@ session_start()
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
+        <!-- Creating navbar -->
         <ul>
             <li><a href ="home.html">Home</a></li>
             <li><a href ="aboutcloud.html">About Cloud</a></li>
@@ -37,6 +38,7 @@ session_start()
     
         <h1 class="ebus3heading">Purchase Receipt</h1>
         
+        <!-- Displaying receipt info -->
         <?php  
         // Bring across variables
           $_SESSION["name"] = $_POST["name"];

@@ -13,6 +13,7 @@ session_start();
     
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
+        <!-- Creating navbar -->
         <ul>
             <li><a href ="home.html">Home</a></li>
             <li><a href ="aboutcloud.html">About Cloud</a></li>
@@ -39,9 +40,9 @@ session_start();
     <br>
     <br>    
         
-
         <h1 class="paymentheading">Please enter your payment details</h1>
             
+            <!-- Creating form -->
             <form action="ebus3.php" method="POST">
 
                     <label class="pin" for="pin">PIN:</label>
@@ -64,6 +65,7 @@ session_start();
             
             <br/>
             
+            <!-- Adding button -->
             <button class="paymentvalidate" onClick="validateDetails()">Validate</button>
             <?php
             // Set session variables

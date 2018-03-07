@@ -2,6 +2,7 @@ body{
     background-image:url("../Images/greybackground.jpg");
     background-size:100%;
     background-repeat: no-repeat;
+    font-family: 'Mukta Malar', sans-serif;
 }
 
 .cvpage1, .cvpage2, .cvpage3{
@@ -13,8 +14,9 @@ body{
 /* Styling table */
 table, th, td {
     border: 1px solid black;
-    width: 30%;
-    max-width: 30%;
+    width: 37%;
+    max-width: 37%;
+    position: relative;
 }
 
 .mainheading{
@@ -29,3 +31,108 @@ table, th, td {
     border-style: groove;
 }
 
+.aboutmepara{
+    width: 50%;
+}
+
+.cvpage1section{
+    position: absolute;
+    left: 2.5%;
+    width: 100%;
+    top: 10%;
+}
+
+.aboutmepara{
+    width: 60%;
+}
+
+.cvpage2section{
+    position: absolute;
+    left: 2.5%;
+    width: 100%;
+    right: 2.5%;
+    top: 10%;
+}
+
+.cvpage3section{
+    position: absolute;
+    left: 2.5%;
+    width: 100%;
+    right: 2.5%;
+    top: 10%;
+}
+
+.ucclogo{
+    position: absolute;
+    top: 10%;
+    height: 115px;
+    right: 10%;
+}
+
+.colmanscrest{
+    position: absolute;
+    height: 115px;
+    top: 28%;
+    right: 27%;
+}
+
+.cvpage1back{
+    position:absolute;
+    left:2.5%;
+    top:90%;
+}
+
+.cvpage1next{
+    position:absolute;
+    right:2.5%;
+    top:90%;
+}
+
+.cvpage2back{
+    position:absolute; 
+    left:2.5%; 
+    top:90%;
+}
+
+.cvpage2next{
+    position:absolute;
+    right:2.5%;
+    top:90%;
+}
+
+.cvpage3back{
+    position:absolute;
+    left:2.5%;
+    top:90%;
+}
+
+.cvpage3home{
+    position:absolute;
+    right:2.5%;
+    top:90%;
+}
+
+.supervalu{
+    width: 50%;
+}
+
+.centra{
+    width: 50%;
+}
+
+.supervalulogo{
+    position: absolute;
+    height: 150px;
+    top: 13%;
+    right: 10%;
+    border-radius: 2.5%;
+}
+
+.centralogo{
+    position: absolute;
+    height: 150px;
+    width: 330px;
+    top: 40%;
+    right: 10%;
+    border-radius: 2.5%;
+}
