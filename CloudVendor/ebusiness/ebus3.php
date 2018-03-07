@@ -3,7 +3,7 @@
 session_start()
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         
         <meta charset="utf-8"/>
@@ -13,9 +13,9 @@ session_start()
         
         <!-- Creating navbar -->
         <ul>
-            <li><a href ="home.html">Home</a></li>
-            <li><a href ="aboutcloud.html">About Cloud</a></li>
-            <li><a href ="products.html">Products</a></li>
+            <li><a href ="../../CloudVendor/home.html">Home</a></li>
+            <li><a href ="../../CloudVendor/aboutcloud.html">About Cloud</a></li>
+            <li><a href ="../../CloudVendor/products.html">Products</a></li>
             <img class="logo" src="../../Images/logo.png">
         </ul>
         
@@ -25,7 +25,12 @@ session_start()
     </head>
     
     <body>
-        
+            
+            <!-- Adding button --> 
+            <div class="exitbutton">
+                <a href="../homepage.html">&larr;Exit</a>
+            </div>
+            
     <br>
     <br>
     <br>

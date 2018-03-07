@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
       
       <meta charset="utf-8"/>
@@ -13,9 +13,9 @@
         
         <!-- Creating navbar -->
         <ul>
-            <li><a href ="home.html">Home</a></li>
-            <li><a href ="aboutcloud.html">About Cloud</a></li>
-            <li><a href ="products.html">Products</a></li>
+            <li><a href ="../../CloudVendor/home.html">Home</a></li>
+            <li><a href ="../../CloudVendor/aboutcloud.html">About Cloud</a></li>
+            <li><a href ="../../CloudVendor/products.html">Products</a></li>
             <img class="logo" src="../../Images/logo.png">
         </ul>
         
@@ -28,7 +28,7 @@
           
           <!-- Adding button -->  
           <div class="exitbutton">
-            <p><a href="../homepage.html">&larr;Exit</a></p>
+            <a href="../homepage.html">&larr;Exit</a>
           </div>
     
     <br>
@@ -113,14 +113,16 @@
               <br>
               
           </div>   
+             
+            <!-- Adding buttons -->
+            <button class="btnaddtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <a class="calcsubbtn" onClick="calcSub()">Calculate Cost</a>
+            <br>
+            <a class="clearbtn" href="Ebus1.php">Clear Choice</a>
               
           </form>
             
-            <!-- Adding buttons -->
-            <button class="btnaddtocart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            <button class="calcsubbtn" onClick="calcSub()">Calculate Cost</button>
-            <br>
-            <button class="clearbtn" role="button" href="Ebus1.php">Clear Choice</button>
+
           
     </body>
 </html>
