@@ -5,6 +5,8 @@ session_start()
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <meta charset="utf-8"/>
         <title>Receipt</title>
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
