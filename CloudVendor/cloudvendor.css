@@ -256,6 +256,10 @@ aboutcloud, body, .containerabout{
     border-radius: 60px;
     top: 120%;
     left: 45%;
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 2px;
+    text-align: center;
 }
 
 .whoarewe{

@@ -20,9 +20,7 @@ session_start();
             <li><a href ="home.html">Home</a></li>
             <li><a href ="aboutcloud.html">About Cloud</a></li>
             <li><a href ="products.html">Products</a></li>
-            <div class="logo">
-                <img src="../../Images/logo.png">
-            </div>
+            <img class="logo" src="../../Images/logo.png">
         </ul>
         
         <!-- Setting font -->

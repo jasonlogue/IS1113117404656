@@ -16,9 +16,7 @@
             <li><a href ="home.html">Home</a></li>
             <li><a href ="aboutcloud.html">About Cloud</a></li>
             <li><a href ="products.html">Products</a></li>
-            <div class="logo">
-                <img src="../../Images/logo.png">
-            </div>
+            <img class="logo" src="../../Images/logo.png">
         </ul>
         
         <!-- Setting font -->
@@ -112,7 +110,8 @@
                 <input class="txttotal" type="text" id="total" name="total" value="0.00" readonly/>
               </label>
     
-              <br/>
+              <br>
+              
           </div>   
               
           </form>
