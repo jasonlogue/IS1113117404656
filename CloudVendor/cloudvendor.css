@@ -140,14 +140,14 @@ aboutcloud, body, .containerabout{
     position: absolute;
     max-width: 40%;
     right: 5%;
-    top: 147%;
+    top: 145%;
     color: white;
 }
 
 .amazonwebpara{
     position: absolute;
     max-width: 40%;
-    top: 273%;
+    top: 271%;
     left: 5%;
     color: white;
 }
@@ -155,7 +155,7 @@ aboutcloud, body, .containerabout{
 .gmailpara{
     position: absolute;
     max-width: 40%;
-    top: 357.5%;
+    top: 350%;
     right: 5%;
     color: white;
 }
@@ -190,8 +190,8 @@ aboutcloud, body, .containerabout{
     position: absolute;
     max-width: 600px;
     max-height: 400px;
-    left: 57%;
-    top: 289%;
+    left: 54%;
+    top: 286%;
 }
 
 .gmailimage img{
@@ -202,7 +202,7 @@ aboutcloud, body, .containerabout{
 
 .gmailimage{
     position: absolute;
-    top: 380%;
+    top: 373%;
     left: 5%;
 }
 
@@ -327,8 +327,8 @@ aboutcloud, body, .containerabout{
     position: absolute;
     right: 0%;
     width: 50%;
-    top: 144.75%;
-    height: 917px;
+    top: 141%;
+    height: 970px;
     background-color: #FF4500;
     color: #FF4500;
 }
@@ -337,7 +337,7 @@ aboutcloud, body, .containerabout{
     position: absolute;
     left: 0%;
     width: 50%;
-    top: 268.25%;
+    top: 265.85%;
     height: 620px;
     background-color: #FFD700;
     color: #FFD700;
@@ -347,8 +347,8 @@ aboutcloud, body, .containerabout{
     position: absolute;
     right: 0%;
     width: 50%;
-    top: 351.75%;
-    height: 720px;
+    top: 345.85%;
+    height: 690px;
     background-color: #40E0D0;
     color: #40E0D0; 
 }
