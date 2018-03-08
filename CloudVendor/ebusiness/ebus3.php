@@ -28,7 +28,7 @@ session_start()
             
             <!-- Adding button --> 
             <div class="exitbutton">
-                <a href="../homepage.html">&larr;Exit</a>
+                <a href="../../homepage.html">&larr;Exit</a>
             </div>
             
     <br>
@@ -68,7 +68,7 @@ session_start()
         <p>
             <?php
             // Display the total price
-            echo "Total: " . $_SESSION["total"] . ".";
+            echo "Total: $" . $_SESSION["total"] . ".";
             ?>
         </p>
         

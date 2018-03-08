@@ -32,7 +32,7 @@ session_start();
             
             <!-- Adding button --> 
             <div class="exitbutton">
-                <a href="../homepage.html">&larr;Exit</a>
+                <a href="../../homepage.html">&larr;Exit</a>
             </div>
             
     <br>

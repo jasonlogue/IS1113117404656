@@ -131,7 +131,7 @@ aboutcloud, body, .containerabout{
 .salesforcepara{
     position: absolute;
     max-width: 40%;
-    left: 1%;
+    left: 5%;
     top: 65%;
     color: white;
 }
@@ -139,8 +139,8 @@ aboutcloud, body, .containerabout{
 .cloud9para{
     position: absolute;
     max-width: 40%;
-    right: 1%;
-    top: 145%;
+    right: 5%;
+    top: 147%;
     color: white;
 }
 
@@ -148,7 +148,7 @@ aboutcloud, body, .containerabout{
     position: absolute;
     max-width: 40%;
     top: 273%;
-    left: 1%;
+    left: 5%;
     color: white;
 }
 
@@ -156,7 +156,7 @@ aboutcloud, body, .containerabout{
     position: absolute;
     max-width: 40%;
     top: 357.5%;
-    right: 1%;
+    right: 5%;
     color: white;
 }
 
@@ -177,7 +177,7 @@ aboutcloud, body, .containerabout{
 
 .cloud9image{
     position: absolute;
-    left: 11%;
+    left: 10%;
     top: 175%;
 }
 
