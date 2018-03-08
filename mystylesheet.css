@@ -72,3 +72,19 @@ a:hover, a:active{
     top: 60%;
     left: 45.65%;
 }
+
+.heroku{
+    position: absolute;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-size: 200%;
+}
+
+.github{
+    position: absolute;
+    right: 9%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-size: 200%;
+}
